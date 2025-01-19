@@ -1,0 +1,30 @@
+{
+  "name": "nft-marketplace",
+  "version": "1.0.0",
+  "description": "A basic NFT marketplace",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat run scripts/deploy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.18"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
